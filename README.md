@@ -7,7 +7,7 @@ Este repositório contém testes automatizados para o **SwagLabs**, um site de c
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades Testadas](#funcionalidades-testadas)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Impedimentos](#impedimentos)
+- [Informações adicionais](#informações-adicionais)
 
 ## Sobre o Projeto
 
