@@ -36,3 +36,4 @@ standard_user: Usuário “comum” que consegue usar o site sem problemas.
 #### Login
 
 - Não utilizei a opção de armazenamento de cookie para os testes, pos não achei que encaixou bem com a performance do site.
+- Não foi adicionar o .env dentro do .gitignore por serem dados públicos, e para ficar de maior facilidade para acessar os dados.
