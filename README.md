@@ -16,12 +16,14 @@ O Swag Labs é um projeto de demonstração disponibilizado pela Sauce Labs que 
 
 Os testes automatizados cobrem diferentes cenários, como casos de sucesso e falhas esperadas.
 
+Usuário escolhido para os testes: 
+standard_user: Usuário “comum” que consegue usar o site sem problemas.
+
 ## Funcionalidades Testadas
 
-- **Login**: Testa a autenticação de usuários com credenciais válidas e inválidas.
-- **Listagem de produtos**: Simular ordenação (por preço ou nome) e filtrar os itens para verificar a funcionalidade de listagem.
-- **Carrinho de compras**: Simular adição e remoção de produtos no carrinho, visualizar os itens selecionados, total e contagem de itens
-- **Checkout**: Simular o processo de finalização da compra, incluir dados como nome, sobrenome e CEP (fictícios)
+- **Login**: Escolhi mostrar diferentes formas de se realizar o login.
+- **Carrinho de compras**: Simular adição e remoção de produtos no carrinho, visualizar os itens selecionados, total e contagem de itens.
+- **Checkout**: Simular o processo de finalização da compra, incluir dados como nome, sobrenome e CEP (fictícios).
   
 ## Tecnologias Utilizadas
 
@@ -29,11 +31,8 @@ Os testes automatizados cobrem diferentes cenários, como casos de sucesso e fal
 - [VSCode]: IDE de desenvolvimento
 - [Node.js]: Ambiente de execução para JavaScript.
 
-## Informações adicionais🚨
+## Impedimentos🚨
 
-#### - Perfis de usuário
+#### Login
 
-- standard_user: Usuário “comum” que consegue usar o site sem problemas.
-- locked_out_user: Não consegue fazer login. Útil para testar mensagens de erro e bloqueio.
-- problem_user: Propositalmente gera problemas de interface (imagens quebradas, itens incorretos etc.).
-- performance_glitch_user: Traz lentidão proposital para testar scripts que lidam com variações de performance.
+- Não utilizei a opção de armazenamento de cookie para os testes, pos não achei que encaixou bem com a performance do site.
