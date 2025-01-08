@@ -1,7 +1,7 @@
 import { ValidarNomeEValorMochila, adicionarItem } from "./utils.cy";
 
 //O formato escolhido para os testes foi com foco na experiência do usuário, UI.
-//Por esse motivo não foi utilizado cy.intercept ou validações diretas na api. Ex: response.status
+//Por esse motivo não foi utilizado cy.intercept ou validações diretas na api.
 
 describe('Teste focado em validar o carrinho', () => {
     beforeEach(() => {

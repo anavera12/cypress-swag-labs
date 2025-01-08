@@ -2,8 +2,8 @@ export const ValidarNomeEValorMochila = (cy) => {
     cy.contains('Sauce Labs Backpack' && '29.99').should('be.visible')
     //como contém apenas 1 produto com esse valor na tela, optei por uma validação mais simples.
     /*
-    por repetir a linha 4x optei por reciclar o código, assim se por ventura o nome ou valor for alterado
-    não será problemático realizar o ajuste no código.
+    por repetir em múltiplas linhas optei por reciclar o código, assim se por ventura o nome ou valor for alterado
+    não será problemático realizar o ajuste.
     */
 }
 
