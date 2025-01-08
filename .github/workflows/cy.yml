@@ -2,20 +2,11 @@ name: End-to-end tests
 on: push
 jobs:
   cypress-run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Using Node.js
-        uses: actions/setup-node@v3
-        with: 
-          node-version: v20.17.0
-      - name: run install, build and test
-        run:
-          npm install
-          npm run build
-          npm run test
-      # - name: Cypress run
-      #   uses: cypress-io/github-action@v6
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
